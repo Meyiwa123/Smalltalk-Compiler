@@ -1,0 +1,55 @@
+
+
+Error log timestamp 12/28/2020 20:38:58
+Message 3005: 
+Virtual machine stack overflow.
+
+
+Error log timestamp 1/20/2024 11:48:43
+
+The registers were:
+EIP =  0x10008d17
+ESP =  0x0019fd88
+EBP =  0x0019fdc4
+EAX =  0x03b31000
+EBX =  0xffffe01f
+ECX =  0x03b30000
+EDX =  0x00917e51
+EDI =  0x100918e0
+ESI =  0x03c31ec0
+CS  =  0x00000023
+DS  =  0x0000002b
+ES  =  0x0000002b
+SS  =  0x0000002b
+End Registers 
+
+
+
+Error log timestamp 1/20/2024 11:48:43
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.
+
+
+Error log timestamp 1/31/2024 23:12:53
+
+The registers were:
+EIP =  0x10008d17
+ESP =  0x0019fc20
+EBP =  0x0019fc54
+EAX =  0x03bc1000
+EBX =  0xfffff2b7
+ECX =  0x03bc0000
+EDX =  0xf3b47fe5
+EDI =  0x1008e48c
+ESI =  0x102b286c
+CS  =  0x00000023
+DS  =  0x0000002b
+ES  =  0x0000002b
+SS  =  0x0000002b
+End Registers 
+
+
+
+Error log timestamp 1/31/2024 23:12:53
+Message 1001: 
+a non-continuable protection violation has occurred. Check ERROR.LOG file.

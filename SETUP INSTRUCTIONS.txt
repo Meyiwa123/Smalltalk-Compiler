@@ -1,0 +1,26 @@
+
+You need to extend the PATH variable to refer to the "Smalltalk\lib" directory,
+which depends on where you placed the Smalltalk folder on your machine.
+
+In Windows 10, just search for "edit the system environment variables"
+which brings up a prompter with an "Environment Variables" button
+that you click on, then select "Path" in the top section and click
+on Edit. Add a new line with the full path to the lib folder; e.g.,
+
+	c:\3D\Smalltalk\lib
+
+Another way to get to the same place is to click on settings,
+click on system, click on "Advanced System Settings", click on the
+"Advanced Tab", click on "Environment variables", select path
+and then click on edit.
+
+Warning: DO NOT REMOVE EXISTING STUFF IN THE Path variable. What
+you are doing is appending a new path to the existing path.
+
+
+A third way is to get to settings which has a "Find a setting" entry and type in it "Advanced System Settings". It gives me a little prompter with title "System Properties" with the "Advanced" tab selected. You should see an "Environment Variables" button near the bottom. When you click on that, you'll see "System Variables" in the bottom half. When you click "Edit...", one of your entries should be something like 
+
+
+	c:\3D\Smalltalk\lib
+
+assuming that is actually where your Smalltalk folder was placed. To check that, go back to where your file "VDEVW.EXE" is actually located and look at the path above it. More specifically, click on the path itself. It will change into a format you can actually COPY (THIS MAKES SURE YOU DON'T TYPE IT WRONG). Then you can paste it directly into the environment variable.
